@@ -121,6 +121,10 @@ p3 {
   margin-top: 1rem;
 }
 
+.workGrid {
+  display: grid;
+}
+
 .WingPet-image {
   margin-bottom: 1rem;
   margin-top: 2rem;
