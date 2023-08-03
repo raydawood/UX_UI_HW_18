@@ -66,16 +66,65 @@ li {
     color:#444B57;
   }
 
-  .skilliconstop {
+.flexContainer {
+  display: flex;
+  row-gap: 30px;
+}
+
+.skilliconstop {
     margin-left: 12rem;
     margin-right: 12rem;
     margin-top: 6rem;
   }
 
+.userResearch {
+  width: 33%;
+  height: 10%;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  margin-right: 4rem;
+  flex-direction: row;
+}
+
+.userEmpathy {
+  width: 33%;
+  height: 10%;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  margin-right: 4rem;
+  flex-direction: row;
+}
+
+.qualitativeInterviews {
+  width: 33%;
+  height: 10%;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  margin-right: 4rem;
+  flex-direction: row;
+}
+
+.skilliconsbottom {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 6rem;
+}
+
+h1 {
+  margin-left: 10rem;
+}
+
+h4 {
+    font-style: underline;
+    border: 1px solid black;
+    border-bottom: 4rem;
+  }
+
   .skillsiconsbottom {
-    margin-left: 20rem;
+    margin-left: 1px;
     margin-right: 20rem;
-    margin-top: 12rem;
+    margin-top: 43rem;
+    margin-bottom: 40rem;
   }
 
   .footer-container {
