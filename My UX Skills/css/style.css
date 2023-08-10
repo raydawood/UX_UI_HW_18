@@ -38,8 +38,8 @@ h2 {
   padding: 5rem;
   margin-bottom: 10px;
   margin-top: 20px;
-  margin-right: 10px;
-  margin-left: 30px;
+  margin-right: 20px;
+  margin-left: 50px;
   width: 200px;
   height: 50px;
   flex-shrink: 0;
@@ -76,8 +76,8 @@ li {
 
 .skilliconstop {
     margin-left: 1rem;
-    margin-right: 6rem;
-    margin-top: 12rem;
+    margin-right: 16rem;
+    margin-top: 8rem;
   }
 
   .threeExplanation {
@@ -97,28 +97,30 @@ li {
 .userResearch {
   width: 33%;
   height: 10%;
-  margin-left: 5rem;
-  margin-top: 5rem;
-  margin-right: 6rem;
-  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 10rem;
   flex-direction: row;
 }
 
 .userEmpathy {
   width: 33%;
   height: 10%;
-  margin-left: 5rem;
-  margin-top: 20rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 10rem;
   flex-direction: row;
 }
 
 .qualitativeInterviews {
   width: 33%;
   height: 10%;
-  margin-left: 5rem;
-  margin-top: 20rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 10rem;
   flex-direction: row;
 }
 
@@ -133,10 +135,30 @@ h4 {
   }
 
   .skillsiconsbottom {
-    margin-left: 1px;
-    margin-right: 20rem;
-    margin-top: 43rem;
+    margin: auto;
     margin-bottom: 40rem;
+    margin-left: 12rem;
+    margin-right: 16rem;
+  }
+
+  .twoExplanation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h5 {
+  font-style: underline;
+  border: 1px solid black;
+  border-bottom: 4rem;
+  width: 33%;
+  height: 10%;
+  margin-left: 1rem;
+  margin-top: 20rem;
+  margin-right: 1rem;
+  margin-bottom: 10rem;
+  flex-direction: row;
   }
 
   .footer-container {
