@@ -134,11 +134,15 @@ h4 {
     border-bottom: 4rem;
   }
 
+  .flexContainer2 {
+    display: flex;
+    row-gap: 30px;
+  }
   .skillsiconsbottom {
     margin: auto;
     margin-bottom: 40rem;
-    margin-left: 12rem;
-    margin-right: 16rem;
+    margin-left: 60rem;
+    margin-right: 18rem;
   }
 
   .twoExplanation {
@@ -148,17 +152,42 @@ h4 {
     justify-content: center;
   }
 
+  .Skills {
+    width: 33%;
+    height: 10%;
+    margin-left: 1rem;
+    margin-top: 12rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    flex-direction: row;
+  }
+
+  .Tools {
+    width: 33%;
+    height: 10%;
+    margin-left: -5rem;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    flex-direction: row;
+  }
+
   h5 {
-  font-style: underline;
-  border: 1px solid black;
-  border-bottom: 4rem;
-  width: 33%;
-  height: 10%;
-  margin-left: 1rem;
-  margin-top: 20rem;
-  margin-right: 1rem;
-  margin-bottom: 10rem;
-  flex-direction: row;
+    font-style: underline;
+    border: 1px solid black;
+    border-bottom: 4rem;
+  }
+
+  p2 {
+    width: 33%;
+    height: 10%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    flex-direction: row;
+    font-style: normal;
+    font-display: 1rem;
   }
 
   .footer-container {
