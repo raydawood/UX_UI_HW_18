@@ -130,15 +130,14 @@ h4 {
 }
 
 .flexContainer2 {
-  display: flex;
   row-gap: 30px;
 }
 
 .skillsiconsbottom {
-  margin: auto;
-  margin-left: 64rem;
-  margin-right:2rem;
-  margin-top: 10px;
+  margin-right: 48rem;
+  margin-top: 8rem;
+  margin-left: 34rem;
+  margin-bottom: 2rem;
 }
 
 .twoExplanation {
@@ -147,24 +146,20 @@ h4 {
   justify-content: center;
 }
 
-.Skills {
-  width: 33%;
-  height: 10%;
-  margin-left: 1rem;
-  margin-top: 20rem;
-  margin-right: 14rem;
-  margin-bottom: 50rem;
-  flex-direction: row;
+.paragraph-containerS {
+  margin: 0 auto;
+  max-width: 300px;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-right: 70rem;
 }
 
-.Tools {
-  width: 33%;
-  height: 10%;
-  margin-left: -5rem;
-  margin-top: 20rem;
-  margin-right: 1rem;
-  margin-bottom: 10rem;
-  flex-direction: row;
+.paragraph-containerT {
+  margin: 0 auto;
+  max-width: 300px;
+  gap: 20px;
+  margin-left: 56rem;
+  margin-bottom: 5px;
 }
 
 h5 {
@@ -188,44 +183,43 @@ p2 {
 .footer-container {
   padding-bottom: 10rem; 
   background-color: #444B57;
-  justify-content: right;
+  width: fit-content;
+  margin: 0 auto;
 }   
-
 .footer {
-  width: 80%;
   height: 5vh;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   flex-shrink: 0;
   margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 30rem;
   color: #F4E7D3;
-  display: flex;
+  background-color: #444B57;
+  width: fit-content;
 }
-
 .footer-1 {
   flex-direction: row;
   margin-bottom: 10rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-  margin-right: 16rem;
+  margin-left: 5rem;
+  margin-right: 52rem;
   background-color: #444B57;
   word-spacing: 6px;
   letter-spacing: normal;
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  width: fit-content;
+  color: #F4E7D3;
 }
-
 .footer-1 :hover {
   color: #B4C6D5;
 }
-
 .footer-heading h4 {
   margin-bottom: 5rem;
   background-color: #444B57;
 }
-
 .footer-2 {
   margin-bottom: 0.5rem;
   text-align: center;
@@ -233,45 +227,41 @@ p2 {
   background-color: #444B57;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 80px;
+  margin-left: 1rem;
+  margin-right: 20rem;
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  width: fit-content;
 }
-
 .footer-2 h4 {
   color: #F4E7D3;
   text-align: center;
   background-color: #444B57;
 }
-
 .footer-2 a {
   text-align: center;
   color: #F4E7D3;
   background-color: #444B57;
 }
-
 .footer-2 a:hover {
   color: #B4C6D5;
 }
-
 .footer-heading a:hover {
   color: #B4C6D5;
   transition: 0.3s ease-out;
 }
-
 .footer-3 {
   color: #F4E7D3;
   text-align: right;
   background-color: #444B57;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 10rem;
-  margin-right: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  width: fit-content;
 }
-
 .footer-3 h4 {
   text-align: center;
   margin-left: 10rem;
@@ -279,16 +269,12 @@ p2 {
   background-color: #444B57;
   word-spacing: 4px;
 }
-
 .footer-3 a {
   color: #F4E7D3;
   background-color: #444B57;
   text-align: right;
   margin-left: 15px;
 }
-
 .footer-3 a:hover {
   color: #B4C6D5;
 }
-
-  
